@@ -1,6 +1,5 @@
 import java.util.*;
 import java.util.function.UnaryOperator;
-
 public class App {
     private int[] arr;
 
@@ -27,7 +26,6 @@ public class App {
         this.arr = arr;
     }
 
-
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("App{");
@@ -44,8 +42,8 @@ public class App {
 
     public static void func1(int arr[]){
         ArrayList<Integer> array_list = new ArrayList<>();
-            for (int i = 0; i < arr.length; i++)
+        for (int i = 0; i < arr.length; i++)
             array_list.add(new Integer(arr[i]));
-            System.out.print(array_list);
+        System.out.print(array_list);
     }
 }
