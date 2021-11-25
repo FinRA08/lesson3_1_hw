@@ -55,5 +55,4 @@ public class Box<T extends Fruit>  {
 //        System.out.println("Вес коробки: " + sum);
 //        return sum;
 //    }
-
 }

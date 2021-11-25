@@ -27,7 +27,6 @@ public class App {
         this.arr = arr;
     }
 
-
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("App{");
