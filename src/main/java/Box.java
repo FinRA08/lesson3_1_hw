@@ -4,7 +4,6 @@ import java.util.function.IntFunction;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 import java.util.stream.Stream;
-
 public class Box<T extends Fruit>  {
 
     private List<T> box;
@@ -31,7 +30,7 @@ public class Box<T extends Fruit>  {
             System.out.println("Коробки весят одинаково");
             return true;
         }
-        System.out.println("Коробки имею ют разный вес");
+        System.out.println("Коробки имеют разный вес");
         return false;
     }
 
@@ -56,3 +55,4 @@ public class Box<T extends Fruit>  {
 //        return sum;
 //    }
 }
+
